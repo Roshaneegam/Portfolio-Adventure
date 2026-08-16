@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+  <!-- CSP is configured via public/_headers for Cloudflare Pages -->
+
+  <!-- Icons -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.webp" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://shajith-portfolio-delta.vercel.app/" data-react-helmet="true" />
+
+  <!-- Primary Meta Tags -->
+  <title>Eegam Roshan | Data Science Student &amp; Web Developer</title>
+  <meta name="title" content="Eegam Roshan | Data Science Student &amp; Web Developer" />
+  <meta name="description"
+    content="Personal portfolio of Eegam Roshan, Data Science Student at IARE Hyderabad specializing in AI/NLP, Data Structures, and Web Development." data-react-helmet="true" />
+  <meta name="keywords"
+    content="Eegam Roshan, Roshan, Data Science, Web Developer, AI, NLP, Python, Java, IARE Hyderabad, Portfolio" />
+  <meta name="author" content="Eegam Roshan" />
+  <meta name="robots" content="index, follow" data-react-helmet="true" />
+  <meta name="theme-color" content="#4a3728" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" data-react-helmet="true" />
+  <meta property="og:title" content="Eegam Roshan | Data Science Student &amp; Web Developer" data-react-helmet="true" />
+  <meta property="og:description"
+    content="Personal portfolio of Eegam Roshan, Data Science Student at IARE Hyderabad specializing in AI/NLP, Data Structures, and Web Development." data-react-helmet="true" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Eegam Roshan Portfolio" />
+  <meta property="og:site_name" content="Eegam Roshan Portfolio" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" data-react-helmet="true" />
+  <meta name="twitter:title" content="Eegam Roshan | Data Science Student &amp; Web Developer" data-react-helmet="true" />
+  <meta name="twitter:description"
+    content="Personal portfolio of Eegam Roshan, Data Science Student at IARE Hyderabad specializing in AI/NLP, Data Structures, and Web Development." data-react-helmet="true" />
+  <meta name="twitter:image" content="https://shajith-portfolio-delta.vercel.app/images/og-cover.webp" data-react-helmet="true" />
+  <meta name="twitter:image:alt" content="Shajith — Software Engineer Portfolio" />
+
+  <!-- Preload critical fonts to eliminate FOIT -->
+  <link rel="preload" href="/fonts/collage_font.otf" as="font" type="font/otf" crossorigin />
+  <link rel="preload" href="/fonts/sharpie_font.ttf" as="font" type="font/truetype" crossorigin />
+
+  <!-- Preload LCP images to optimize request discovery -->
+  <link rel="preload" href="/images/title/shan's--mobile.avif" as="image" type="image/avif" media="(max-width: 550px)"
+    fetchPriority="high" />
+  <link rel="preload" href="/images/title/shan's.avif" as="image" type="image/avif" media="(min-width: 551px)"
+    fetchPriority="high" />
+  <link rel="preload" href="/images/title/adventure--mobile.avif" as="image" type="image/avif"
+    media="(max-width: 550px)" fetchPriority="high" />
+  <link rel="preload" href="/images/title/adventure.avif" as="image" type="image/avif" media="(min-width: 551px)"
+    fetchPriority="high" />
+  <link rel="preload" href="/images/title/hero.avif" as="image" type="image/avif" media="(min-width: 551px)"
+    fetchPriority="high" />
+
+  <!-- GA4: preconnect to resolve DNS/TCP ahead of time without blocking -->
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+
+  <!-- Google Analytics -->
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      const gaId = "%VITE_GA4_ID%";
+
+      if (!gaId || !gaId.startsWith("G-")) return;
+
+      let gaLoaded = false;
+
+      function loadGA4() {
+        if (gaLoaded) return;
+        gaLoaded = true;
+
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = `https://www.googletagmanager.com/gtag/js?id=${gaId}`;
+        document.head.appendChild(script);
+
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function () { dataLayer.push(arguments); };
+
+        window.gtag('js', new Date());
+        window.gtag('config', gaId, {
+          'anonymize_ip': true,
+          'page_path': window.location.pathname
+        });
+
+        window.removeEventListener('scroll', loadGA4);
+        window.removeEventListener('mousemove', loadGA4);
+        window.removeEventListener('touchstart', loadGA4);
+      }
+
+      window.addEventListener('scroll', loadGA4, { passive: true });
+      window.addEventListener('mousemove', loadGA4, { passive: true });
+      window.addEventListener('touchstart', loadGA4, { passive: true });
+
+      setTimeout(loadGA4, 2000);
+    });
+  </script>
+</head>
+
+<body>
+  <div id="root">
+    <!-- SEO fallback content for crawlers/non-JS engines (visually hidden) -->
+    <div style="display: none;">
+      <header>
+        <h1>Developer Portfolio | Software Engineer &amp; Full Stack Developer</h1>
+        <p>Welcome to my personal portfolio. I am a Software Engineer &amp; Full Stack Developer specializing in crafting high-performance, responsive, and interactive web experiences.</p>
+        <nav aria-label="Fallback Navigation">
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Core Engineering Skills &amp; Stack</a></li>
+            <li><a href="#experience">Professional Experience</a></li>
+            <li><a href="#projects">Featured Software Projects</a></li>
+            <li><a href="#contact">Contact &amp; Connect</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section id="about">
+          <h2>About Me</h2>
+          <p>I am a versatile, results-driven Full Stack Software Engineer specializing in modern web application development, frontend engineering, backend architecture, and cloud deployment.</p>
+        </section>
+
+        <section id="skills">
+          <h2>Core Engineering Skills &amp; Stack</h2>
+          <ul>
+            <li><strong>Frontend Engineering:</strong> React, Next.js, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS, GSAP.</li>
+            <li><strong>Backend Engineering:</strong> Node.js, Express, Python, REST APIs, PostgreSQL, Supabase.</li>
+            <li><strong>Cloud &amp; DevOps:</strong> Vercel, AWS, Git, GitHub Actions.</li>
+          </ul>
+        </section>
+
+        <section id="projects">
+          <h2>Featured Software Projects</h2>
+          <p>Explore full-stack web applications, e-commerce concepts, and operations management tools built with modern frameworks.</p>
+        </section>
+
+        <section id="contact">
+          <h2>Contact &amp; Connect</h2>
+          <p>Connect with me via email, WhatsApp, or social platforms.</p>
+        </section>
+      </main>
+    </div>
+  </div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

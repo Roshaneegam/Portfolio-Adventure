@@ -2,7 +2,7 @@
 
 Welcome to the personal portfolio repository of **Eegam Roshan**, a Data Science Student & Web Developer based in Hyderabad, India.
 
-[![Portfolio Live](https://img.shields.io/badge/Portfolio-Live_Preview-blue?style=for-the-badge)](https://github.com/Roshaneegam/Portfolio-Adventure)
+[![Portfolio Live](https://img.shields.io/badge/Portfolio-Live_Preview-blue?style=for-the-badge)](https://portfolio-adventure.vercel.app/)
 [![GitHub Profile](https://img.shields.io/badge/GitHub-Roshaneegam-black?style=for-the-badge&logo=github)](https://github.com/Roshaneegam)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Roshan_Eegam-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/roshan-eegam-6a531a32b)
 

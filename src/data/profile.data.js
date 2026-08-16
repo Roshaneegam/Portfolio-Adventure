@@ -11,7 +11,7 @@ export const PERSONAL_INFO = {
   handle: "@always___roshan",
   bio: "B.Tech Computer Science Engineering (Data Science) student at IARE Hyderabad. Passionate about AI/NLP, Data Structures, Algorithms, and Full Stack Web Development.",
   location: "Hyderabad, India",
-  canonicalUrl: "https://roshan-eegam.vercel.app",
+  canonicalUrl: "https://portfolio-adventure.vercel.app",
 };
 
 export const CONTACT_INFO = {
